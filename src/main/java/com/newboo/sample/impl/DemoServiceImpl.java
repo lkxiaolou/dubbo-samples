@@ -5,7 +5,7 @@ import com.newboo.sample.api.Req;
 import com.newboo.sample.api.Resp;
 import org.apache.dubbo.config.annotation.DubboService;
 
-@DubboService
+@DubboService(version = "1.0.0", group = "read")
 public class DemoServiceImpl implements DemoService {
 
     @Override
